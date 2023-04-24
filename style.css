@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    background-color: hsl(241, 100%, 89%);
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container-1{
+    margin: auto;
+    background-color: hsl(0, 100%, 100%);
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: hsl(0, 100%, 100%);
+    
+}
+.gradient{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    position: relative;
+    top: -20px;
+    padding-top: 20px;
+    
+}
+.result{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+.gradient p{
+    text-align: center;
+    color: white;
+
+}
+@font-face {
+    font-family: HankenGrotesk;
+    src: url(/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+p{
+    font-family: HankenGrotesk;
+    font-size: 18px;
+}
+.number{
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.percentage{
+    margin-top: 0;
+}
+.great p{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.paragraph{
+    max-width: 300px;
+    padding: 0 50px;
+}
+.paragraph p{
+    margin-top: 0px;
+    padding-bottom: 25px;
+}
+.summary{
+    background-color: hsl(0, 100%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.summary p{
+    text-align: center;
+}
+.summary header p{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    margin-top: 0;
+    margin-right: 262px;
+}
+.reaction{
+    vertical-align: middle;
+    border-radius: 6px;
+    color:hsl(0, 100%, 67%);
+    background-color: hsla(0,100%,67%,0.1);
+    padding: 15px 10px;
+}
+svg{
+    padding-right: 15px;
+    vertical-align: middle;
+}
+.reaction .fraction{
+    padding-left: 150px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+
+}
+.memory{
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 6px;
+    color:hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+    padding: 15px 10px;
+}
+.memory .fraction{
+    padding-left: 155px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+.verbal{
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 6px;
+    color:hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%,0.1);
+    padding: 15px 10px;
+}
+.verbal .fraction{
+    text-align: center;
+    padding-left: 170px;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+}
+.visual{
+    vertical-align: middle;
+    border-radius: 6px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234,85%,45%,0.1);
+    padding: 15px 10px;
+}
+.visual .fraction{
+    text-align: center;
+    padding-left: 170px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+button{
+    color: hsl(0, 100%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 19px;
+    border: 0px;
+    padding: 15px 140px;
+    margin-bottom :20px;
+}
+.summary span{
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;
+}
