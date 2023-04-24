@@ -4,17 +4,16 @@ body{
 }
 .container{
     display: flex;
-    width: 500px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    max-height: 100%;
+    min-height: 100vh;
 }
 .container-1{
     margin: 0 auto;
     background-color: hsl(0, 100%, 100%);
-    max-width: 100%;
-    max-height: 100%;
+    width: 400px;
+    overflow: hidden;
     background-image: hsl(0, 100%, 100%);
     
 }
@@ -86,7 +85,6 @@ p{
     font-weight: 700;
     margin-top: 0;
     margin-right: 262px;
-    max-width: 100%;
 }
 .reaction{
     vertical-align: middle;
@@ -95,7 +93,6 @@ p{
     color:hsl(0, 100%, 67%);
     background-color: hsla(0,100%,67%,0.1);
     padding: 15px 10px;
-    max-width: 100%;
 }
 svg{
     padding-right: 15px;
@@ -153,7 +150,8 @@ svg{
 button{
     color: hsl(0, 100%, 100%);
     background-color: hsl(224, 30%, 27%);
-    border-radius: 20px;
+    background-image: none;
+    border-radius: 24px;
     text-align: center;
     font-weight: 800;
     font-size: 19px;
@@ -161,6 +159,14 @@ button{
     padding: 15px 140px;
     margin-bottom :20px;
     max-width: 100%;
+    text-decoration: none;
+    height: 50px;
+    transition:height 0.5s, text-decoration 0.5s background-image 0.5s;
+}
+button:active{
+    text-decoration: underline;
+    height: 60px;
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
 }
 .summary span{
     color: hsl(241, 100%, 89%);
