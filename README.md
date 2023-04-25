@@ -32,8 +32,10 @@ Users should be able to:
 
 #### Mobile view
 
+##### view 1
 ![](/screenshots/mobile-view2.jpg)
 
+##### view 2
 ![](/screenshots/mobile-view1.jpg)
 
 ### Links
