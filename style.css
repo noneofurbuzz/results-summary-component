@@ -173,7 +173,9 @@ button:active{
     font-weight: 700;
 }
 .attribution{
+    padding-top: 50px;
     text-align: center;
+    font-size: 11px;
 }
 .attribution a{
     color: hsl(228, 45%, 44%);
