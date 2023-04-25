@@ -61,4 +61,4 @@ This challenge really tested me on layout design and positioning and I really tr
 ## Author
 
 - Github - [Ugochi Ike](https://github.com/noneofurbuzz)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/ugochi-ike-0647aa244/)
+- Linkedin - [My Linkedin](https://www.linkedin.com/in/ugochi-ike-0647aa244/)
