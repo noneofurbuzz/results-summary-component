@@ -161,7 +161,7 @@ button{
     max-width: 100%;
     text-decoration: none;
     height: 50px;
-    transition:height 0.5s, text-decoration 0.5s background-image 0.5s;
+    transition:height 0.5s, text-decoration 0.5s,background-image 0.5s,background-color 0.5s;
 }
 button:active{
     text-decoration: underline;
@@ -171,4 +171,98 @@ button:active{
 .summary span{
     color: hsl(241, 100%, 89%);
     font-weight: 700;
+}
+.attribution{
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width:720px) {
+    body{
+        background-color: hsl(0, 100%, 100%);
+    }
+    .container-1{
+        display: flex;
+        flex-direction: row;
+        border-radius: 25px;
+        max-width: 700px;
+        box-shadow: 6px 6px 40px 0 hsl(241, 100%, 89%);
+    }
+    .gradient{
+        top: 0;
+        padding-top: 0;
+        max-width: 100%;
+        height: auto;
+        
+    }
+    .result{
+        margin-top: 20px;
+    }
+    .gradient header p{
+        margin-top: 35px;
+        margin-bottom:0;
+    }
+    .summary header p{
+        margin-top: 30px;
+        margin-right: 215px;
+    }
+    .reaction{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 15px 10px;
+    }
+    .memory{
+        margin-bottom: 0;
+    }
+    .verbal{
+        margin-bottom: 0;
+    }
+    .summary{
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+   
+    .result{
+        width: 200px;
+        height: 200px;
+    }
+    .paragraph p{
+        margin-top: 0px;
+        padding-bottom: 0;
+        padding-top: 0px;
+    }
+    .reaction .fraction{
+        padding-left: 100px;
+    }
+    .memory .fraction{
+        padding-left: 105px;
+    }
+    .verbal .fraction{
+        padding-left: 120px;
+    }
+    .visual .fraction{
+        padding-left: 120px;
+    }
+    button{
+        padding: 15px 110px;
+    }
+    .number{
+        margin-top: 50px;
+        font-size: 65px;
+    }
+}
+@media (pointer:fine){
+    button:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        height: 55px;
+        background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+    }
+    button:active{
+
+        background-image:linear-gradient(hsl(224, 30%, 27%),hsl(224, 30%, 27%))
+    }
 }
